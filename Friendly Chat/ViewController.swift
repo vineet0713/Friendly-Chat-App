@@ -6,7 +6,11 @@
 //  Copyright © 2018 Vineet Joshi. All rights reserved.
 //
 
+// Xcode workspaces (xcworkspaces) contain many Xcode projects (xcprojects) that reference one another!
+
 import UIKit
+import Firebase
+import FirebaseAuthUI
 
 class ViewController: UIViewController {
 
