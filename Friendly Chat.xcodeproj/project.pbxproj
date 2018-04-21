@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		004B2D7BA2BE55C844FC93E6 /* Pods_Friendly_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F13BB4D071B6338D2A92D6 /* Pods_Friendly_Chat.framework */; };
+		65C57393208AC21F00D37CB5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C57392208AC21F00D37CB5 /* AuthViewController.swift */; };
+		65C57395208AC2C400D37CB5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C57394208AC2C400D37CB5 /* MessagesViewController.swift */; };
+		65C57397208AC67100D37CB5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C57396208AC67100D37CB5 /* Constants.swift */; };
 		65FEA24A208ABC3B0095C78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FEA249208ABC3B0095C78D /* AppDelegate.swift */; };
-		65FEA24C208ABC3B0095C78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FEA24B208ABC3B0095C78D /* ViewController.swift */; };
 		65FEA24F208ABC3B0095C78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FEA24D208ABC3B0095C78D /* Main.storyboard */; };
 		65FEA251208ABC3B0095C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FEA250208ABC3B0095C78D /* Assets.xcassets */; };
 		65FEA254208ABC3B0095C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FEA252208ABC3B0095C78D /* LaunchScreen.storyboard */; };
@@ -38,9 +40,11 @@
 
 /* Begin PBXFileReference section */
 		3FC87979A80EB20AA94D9326 /* Pods-Friendly Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendly Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Friendly Chat/Pods-Friendly Chat.release.xcconfig"; sourceTree = "<group>"; };
+		65C57392208AC21F00D37CB5 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		65C57394208AC2C400D37CB5 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		65C57396208AC67100D37CB5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		65FEA246208ABC3B0095C78D /* Friendly Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendly Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FEA249208ABC3B0095C78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65FEA24B208ABC3B0095C78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65FEA24E208ABC3B0095C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65FEA250208ABC3B0095C78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FEA253208ABC3B0095C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -119,7 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				65FEA249208ABC3B0095C78D /* AppDelegate.swift */,
-				65FEA24B208ABC3B0095C78D /* ViewController.swift */,
+				65C57392208AC21F00D37CB5 /* AuthViewController.swift */,
+				65C57394208AC2C400D37CB5 /* MessagesViewController.swift */,
+				65C57396208AC67100D37CB5 /* Constants.swift */,
 				65FEA24D208ABC3B0095C78D /* Main.storyboard */,
 				65FEA250208ABC3B0095C78D /* Assets.xcassets */,
 				65FEA252208ABC3B0095C78D /* LaunchScreen.storyboard */,
@@ -397,8 +403,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FEA24C208ABC3B0095C78D /* ViewController.swift in Sources */,
+				65C57395208AC2C400D37CB5 /* MessagesViewController.swift in Sources */,
+				65C57393208AC21F00D37CB5 /* AuthViewController.swift in Sources */,
 				65FEA24A208ABC3B0095C78D /* AppDelegate.swift in Sources */,
+				65C57397208AC67100D37CB5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
